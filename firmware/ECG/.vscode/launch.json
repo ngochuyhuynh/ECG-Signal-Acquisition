@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "J-Link Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "jlink",
+            "device": "STM32F446RE",
+            "interface": "swd",
+            "runToMain": true,
+            "executable": "${workspaceFolder}/build/ECG.elf",
+            "preLaunchTask": "build",
+            "gdbPath": "C:/Program Files/Arm/GNU Toolchain mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb",
+            "serverpath": "C:/Program Files/SEGGER/JLink_V940/JLinkGDBServerCL.exe"
+        }
+    ]
+}

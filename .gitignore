@@ -1,0 +1,21 @@
+# Build output
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+
+# Altium
+History/
+__Previews/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Windows
+Thumbs.db
+Desktop.ini
