@@ -166,14 +166,6 @@ ECG-Signal-Acquisition/
 └── results/
     └── ecg_waveform.png   # Real ECG capture
 ```
-
----
-
-## CV Description
-
-> **ECG Signal Acquisition System** — Designed and built a complete ECG acquisition pipeline from analog front-end to real-time digital visualization. Implemented a discrete analog signal chain (INA128 instrumentation amplifier, active HPF/LPF, ×1010 total gain) and verified frequency response via automated Bode plot scripts (Python SCPI). Developed STM32F446RE firmware with FreeRTOS, 12-bit ADC/DMA at 1000 Hz, and a cascaded IIR digital filter pipeline (HPF, 60 Hz notch, LPF). Real-time Python GUI displays ECG waveform, FFT spectrum, and BPM.  
-> **Technologies:** C, Python, STM32 HAL, FreeRTOS, Altium Designer
-
 ---
 
 ## Author
