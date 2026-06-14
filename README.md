@@ -12,13 +12,11 @@ This project demonstrates a complete biosignal acquisition pipeline — from raw
 
 ---
 
-System Architecture
+## System Architecture
 
+> Full schematic available here: [hardware/Schematic.pdf](https://github.com/ngochuyhuynh/ECG-Signal-Acquisition/blob/main/hardware/Schematic.pdf)
 
-Full schematic available here: hardware/Schematic.pdf
-
-
-
+```
 Electrodes
     │
     ▼
@@ -53,6 +51,7 @@ Python Visualization
   ├─ Real-time ECG waveform
   ├─ FFT spectrum (0–150 Hz)
   └─ R-peak detection + BPM display
+```
 
 ---
 
